@@ -1,17 +1,13 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
+    <ion-title [ngStyle]="{'font-size': (24 * getFontScale()) + 'px'}">
+      {{ 'tab.2.title' | translate }}
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <div style="display: flex; flex-direction: column; width: 30%; justify-content: center; margin: auto; height: 100%;">
+    <p style="text-align: center;" [ngStyle]="{'font-size': (16 * getFontScale()) + 'px'}">{{ 'tab.2.desc' | translate }}</p>
+  </div>
 </ion-content>

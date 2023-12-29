@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-tab3',
@@ -8,5 +9,9 @@ import { Component } from '@angular/core';
 export class Tab3Page {
 
   constructor() {}
+
+  getFontScale() {
+    return environment.fontScale;
+  }
 
 }

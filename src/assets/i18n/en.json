@@ -1,0 +1,21 @@
+{
+    "lang": {
+        "en": "English",
+        "ch": "Chinese"
+    },
+    "fontScale": "Font Scale",
+    "tab": {
+        "1": {
+            "title": "Tab One",
+            "desc": "Cat is cute and fluffy."
+        },
+        "2": {
+            "title": "Tab Two",
+            "desc": "Dog is loyal and nice."
+        },
+        "3": {
+            "title": "Tab Three",
+            "desc": "Owl is silent and deadly."
+        }
+    }
+}
